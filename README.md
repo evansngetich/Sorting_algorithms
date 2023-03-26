@@ -28,3 +28,7 @@ The `insertionSortWithPQ` function is almost identical to the `selectionSortWith
 The `bubbleSort` function takes an array of integers `arr` and its size `n` as input. It uses a nested loop to compare adjacent elements of the input array and `swap` them if they are in the wrong order. This process is repeated until the array is sorted.
 
 In the main function, the program prompts the user to enter the number of elements and the elements themselves, and stores them in an array arr. Then, it prompts the user to choose a sorting algorithm and calls the corresponding sorting function based on the user's choice. After the array is sorted, the program opens a file called `sorted.txt` for writing and writes the sorted array to it. Finally, it prints a message to the console indicating that the sorting is completed and the output is written to the file.
+### compilation
+- g++ sort_algos.c++ -o sort_algos
+### execution 
+- ./sort_algos
